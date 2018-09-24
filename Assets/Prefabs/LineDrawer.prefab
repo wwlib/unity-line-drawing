@@ -52,8 +52,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4569edced83bc6479e05601fc68d648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  simplifyLine: 0
+  simplifyLine: 1
   simplifyTolerance: 0.02
+  material: {fileID: 2100000, guid: d3db93d31171e2444b43790e8d90b583, type: 2}
 --- !u!120 &120604808484669212
 LineRenderer:
   m_ObjectHideFlags: 1
@@ -142,5 +143,5 @@ LineRenderer:
     alignment: 0
     textureMode: 0
     generateLightingData: 0
-  m_UseWorldSpace: 1
+  m_UseWorldSpace: 0
   m_Loop: 0
